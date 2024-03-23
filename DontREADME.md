@@ -1,8 +1,8 @@
-# Sats Names API
+# Fud Names API
 
-[Documentation](https://docs.sats.id)
 
-This repo is the codebase for the Fudders Names API, which is available at [api.sats.id](https://api.sats.id).
+
+This repo is the codebase for the Fudders Names API
 
 ## Local Development
 
@@ -15,7 +15,7 @@ pnpm install
 Create a `.env` file with `DATABASE_URL` pointing to a Postgres database URL. You'll need to have Postgres installed and running on your machine.
 
 ```dotenv
-DATABASE_URL="postgresql://localhost:5432/sats-api-dev"
+DATABASE_URL="postgresql://localhost:5432/fud-api-dev"
 ```
 
 Setup the DB migrations with:
@@ -38,7 +38,7 @@ A `Dockerfile` is provided, which can be used to easily deploy the project.
 
 ## Project architecture
 
-A few notes about the tech stack of the Sats Names API:
+A few notes about the tech stack of the FUD names Names API:
 
 - All code is in TypeScript
 - Fastify as the server framework
